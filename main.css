@@ -1,0 +1,61 @@
+
+/*pesca todo y le pone l que yo le digo
+*{
+  color: red;
+} */
+
+.azul {
+  background-color: blue;
+}
+h1,h2,p{
+  color: white;
+}
+a{
+  color:white;
+  text-decoration: none; /*para sacar la linea del hipervinculo*/
+}
+div {
+  background-color: red;
+}
+/* div ol li{ /*.red ol li para llamar a la lista de viñetas completas
+  color: green;
+
+}
+*/
+li:first-of-type + li{ /*fijarse en los espacios despues de los dos puntos*/
+  color: white; /*afecta al segundo hijo de ol*/
+}
+ol li:first-child{ /* colocar un id <li id"verde"> en html /* #verde*/
+  color: green; /*afecta al primer hijo de ol*/
+}
+li:last-child{ /* afecta al ultimo hijo de ol*/
+  color: yellow;
+}
+
+.caja{
+  background-color: yellow;
+  padding: 1em; /* 1em=16px*/
+  border: 1em solid black;
+}
+.caja2{
+  background-color: red;
+  margin-top: 1em;
+  padding: 1em;
+  border: 1em dashed black;
+  text-align: center; /*afecta a todo lo que hay dentro de la caja*/
+  visibility:hidden; /*se esconde la caja pero deja el espacio vacio
+  /*display: none; la elimina y sube caja 3*/
+
+}
+/* h2{} como ya tengo un h2 anteriormente deberia asignar una clase a mi nuevo h2 para modificarlo solo a el*/
+
+.caja3{
+  background-color: green;
+  margin-top: 1em;
+  padding: 1em;
+  border: 1em dashed black;
+  text-align: center;
+}
+.body{
+  margin: 0; /*es para sacar el borde del body que se ve en la pagina, siempre tiene 8px x defecto*/
+}
